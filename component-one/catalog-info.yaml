@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: component-one
+  description: |
+    This is a sample component.
+  links:
+    - title: My first link
+      url: https://somewhere
+  annotations:
+    backstage.io/kubernetes-id: component-one
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: rhdh-adventure-organization/sample-components
+spec:
+  type: library
+  lifecycle: production
+  owner: rmarting
