@@ -14,5 +14,5 @@ metadata:
 spec:
   type: library
   lifecycle: production
-  owner: rmarting
+  owner: rhdh
   system: rhdh-system
